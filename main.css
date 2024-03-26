@@ -1,0 +1,16 @@
+.page{
+    width: 1000px;
+    height: 700px;
+    background-color: #171717;
+    
+    display: grid;
+    grid-template-rows: 30px 670px;
+
+    grid-template-areas: 
+    "bar"
+    "content";
+}
+.bar{
+    grid-area: bar;
+    background-color: #282828;
+}
