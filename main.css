@@ -14,3 +14,12 @@
     grid-area: bar;
     background-color: #282828;
 }
+.pm_text{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 5px;
+}
