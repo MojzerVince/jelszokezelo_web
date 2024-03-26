@@ -9,10 +9,14 @@
     grid-template-areas: 
     "bar"
     "content";
+
+    border-radius: 26px;
 }
 .bar{
     grid-area: bar;
     background-color: #282828;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
 }
 .pm_text{
     color: #FFFFFF;
