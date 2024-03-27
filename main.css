@@ -72,3 +72,45 @@
     color: #575757;
     padding-left: 8px;
 }
+.passes{
+    grid-area: passes;
+
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: auto;
+    gap: 46px;
+}
+.card{
+    width: 323px;
+    height: 140px;
+    background-color: #404040;
+    border-radius: 18px;
+    margin-left: 28px;
+    margin-top: 8px;
+    margin-right: 28px;
+
+    display: grid;
+
+    grid-template-columns: 107px 107px 107px;
+    grid-template-rows: 20px 25px 25px 25px;
+    grid-template-areas: 
+    "nothing1 site nothing2"
+    "usern nothing3 usernPass"
+    "email nothing4 emailPass"
+    "password nothing5 passPass";
+}
+.site{
+    width: 107px;
+    height: 20px;
+    background-color: #292929;
+    border-radius: 0px 0px 10px 10px;
+
+    grid-area: site;
+
+    text-align: center;
+}
+.siteN{
+    font-family: Poppins;
+    color: #FFFFFF;
+    margin: -2px;
+}
