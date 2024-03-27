@@ -154,3 +154,22 @@ body{
     margin-right: 4px;
     text-align: right;
 }
+.password{
+    grid-area: pass;
+    display: grid;
+    grid-template-columns: repeat(3, 107px);
+
+    grid-template-areas: 
+    "passText pass pass";
+}
+.passText{
+    grid-area: passText;
+    margin: 0px;
+    margin-left: 4px;
+}
+.pass{
+    grid-area: pass;
+    margin: 0px;
+    margin-right: 4px;
+    text-align: right;
+}
