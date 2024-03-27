@@ -101,7 +101,7 @@ body{
     "email email email"
     "pass pass pass";
 
-    gap: 12px 0px;
+    gap: 10px 0px;
 }
 .site{
     width: 107px;
@@ -124,13 +124,32 @@ body{
     grid-template-areas: 
     "usern usernPass usernPass";
 }
-.usern{
+.usernText{
     grid-area: usern;
     margin: 0px;
     margin-left: 4px;
 }
 .usernPass{
     grid-area: usernPass;
+    margin: 0px;
+    margin-right: 4px;
+    text-align: right;
+}
+.email{
+    grid-area: email;
+    display: grid;
+    grid-template-columns: repeat(3, 107px);
+
+    grid-template-areas: 
+    "emailText emailPass emailPass";
+}
+.emailText{
+    grid-area: emailText;
+    margin: 0px;
+    margin-left: 4px;
+}
+.emailPass{
+    grid-area: emailPass;
     margin: 0px;
     margin-right: 4px;
     text-align: right;
