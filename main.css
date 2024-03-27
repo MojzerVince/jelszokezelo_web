@@ -27,3 +27,27 @@
     margin: 0px;
     padding-top: 5px;
 }
+.content{
+    grid-area: content;
+
+    display: grid;
+    grid-template-columns: 225px 775px;
+
+    grid-template-areas:
+    "navbar passwords";
+}
+.navbar{
+    grid-area: navbar;
+    background-color: #1C1C1C;
+    border-bottom-left-radius: 26px;
+}
+.passwords{
+    grid-area: passwords;
+
+    display: grid;
+    grid-template-rows: 40px 630px;
+
+    grid-template-areas: 
+    "search"
+    "passes";
+}
