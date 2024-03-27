@@ -173,3 +173,13 @@ body{
     margin-right: 4px;
     text-align: right;
 }
+
+.add{
+    width: 323px;
+    height: 140px;
+    text-align: center;
+}
+.addButton{
+    font-size: 120px;
+    margin: -18px;
+}
