@@ -1,3 +1,8 @@
+body{
+    font-family: Poppins;
+    color: #FFFFFF;
+}
+
 .page{
     width: 1000px;
     height: 700px;
@@ -19,8 +24,6 @@
     border-top-right-radius: 26px;
 }
 .pm_text{
-    color: #FFFFFF;
-    font-family: Poppins;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -66,7 +69,6 @@
     border-radius: 15px;
 }
 .s_text{
-    font-family: Poppins;
     font-size: 16px;
     line-height: 24px;
     color: #575757;
@@ -95,9 +97,11 @@
     grid-template-rows: 20px 25px 25px 25px;
     grid-template-areas: 
     "nothing1 site nothing2"
-    "usern nothing3 usernPass"
-    "email nothing4 emailPass"
-    "password nothing5 passPass";
+    "usern usern usern"
+    "email email email"
+    "pass pass pass";
+
+    gap: 12px 0px;
 }
 .site{
     width: 107px;
@@ -110,7 +114,24 @@
     text-align: center;
 }
 .siteN{
-    font-family: Poppins;
-    color: #FFFFFF;
     margin: -2px;
+}
+.username{
+    grid-area: usern;
+    display: grid;
+    grid-template-columns: repeat(3, 107px);
+
+    grid-template-areas: 
+    "usern usernPass usernPass";
+}
+.usern{
+    grid-area: usern;
+    margin: 0px;
+    margin-left: 4px;
+}
+.usernPass{
+    grid-area: usernPass;
+    margin: 0px;
+    margin-right: 4px;
+    text-align: right;
 }
