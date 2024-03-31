@@ -57,6 +57,8 @@ a{
     "logo"
     "overview"
     "account";
+
+    user-select: none;
 }
 .logo img{
     grid-area: logo;
@@ -87,6 +89,16 @@ a{
 }
 .account{
     grid-area: account;
+    padding-left: 25px;
+    margin-top: 220px;
+}
+.account p{
+    color: #C9C9C9;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.account img, .account a{
+    margin-left: 25px;
 }
 .passwords{
     grid-area: passwords;
