@@ -43,6 +43,28 @@ body{
     grid-area: navbar;
     background-color: #1C1C1C;
     border-bottom-left-radius: 26px;
+
+    display: grid;
+    grid-template-rows: 70px 600px;
+    grid-template-areas: 
+    "logo"
+    "overview";
+}
+.logo img{
+    grid-area: logo;
+    margin-top: 8px;
+    margin-left: 50px;
+    justify-self: center;
+    align-self: center;
+}
+.logo p{
+    grid-area: logo;
+    margin: 0px;
+    font-size: 20px;
+    display: inline-block;
+}
+.navbar hr{
+    width: 180px;
 }
 .passwords{
     grid-area: passwords;
