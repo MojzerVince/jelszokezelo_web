@@ -36,6 +36,7 @@ a{
     text-align: center;
     margin: 0px;
     padding-top: 5px;
+    user-select: none;
 }
 .content{
     grid-area: content;
@@ -129,6 +130,7 @@ a{
     line-height: 24px;
     color: #575757;
     padding-left: 8px;
+    user-select: none;
 }
 .passes{
     grid-area: passes;
@@ -168,6 +170,7 @@ a{
     grid-area: site;
 
     text-align: center;
+    user-select: none;
 }
 .siteN{
     margin: -2px;
@@ -183,6 +186,7 @@ a{
 .usernText{
     grid-area: usern;
     margin-left: 4px;
+    user-select: none;
 }
 .usernPass{
     grid-area: usernPass;
@@ -200,6 +204,7 @@ a{
 .emailText{
     grid-area: emailText;
     margin-left: 4px;
+    user-select: none;
 }
 .emailPass{
     grid-area: emailPass;
@@ -217,6 +222,7 @@ a{
 .passText{
     grid-area: passText;
     margin-left: 4px;
+    user-select: none;
 }
 .pass{
     grid-area: pass;
